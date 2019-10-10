@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    padding: 30px;
+}
+
+
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 768px;
+    background: #864AFC 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.how-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 768px;
+    left: 0px;
+    width: 100%;
+    height: 327px;
+    background: #FFC9C9 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.how-section--row {
+    width: 70%;
+    margin: 15px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.how-section--row p{
+    padding: 0 30px;
+}
+
+.howmuch-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 1096px;
+    left: 0px;
+    width: 100%;
+    height: 366px;
+    background: #5C29BE 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.howmuch-section--row {
+    width: 70%;
+    margin: 15px 0 ;
+    display: flex;
+    align-items: center;
+}
+
+.invite-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 1462px;
+    left: 0px;
+    width: 100%;
+    height: 201px;
+    background: #F5EFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.invite-section--row {
+    width: 70%;
+    margin: 15px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calltoaction-section {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 702px;
+    background: #864AFC 0% 0% no-repeat padding-box;
+}
+ 
+img#marca {
+    position: absolute;
+    top: 48px;
+    left: 58px;
+}
+
+img#porco {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    top: 160px;
+    left: 252px;
+    width: 834px;
+    height: 456px;
+}
+
+.home-content--footer p {
+    margin-left: 50px;
+    display: inline;
+}
+
+.home-content--footer {
+    margin-top: 60px;
+    display: flex;
+}
+
+.main-text {
+    text-align: left;
+    font-size: 90px;
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    letter-spacing: -0.54px;
+    opacity: 1;
+    color: #FFFFFF;
+    line-height: 85px;
+}
+
+.main-text span {
+    color: #FFDCD5;
+}
+
+.home-btn {
+    top: 559px;
+    left: 252px;
+    width: 470px;
+    height: 57px;
+    /* UI Properties */
+    background:  url('assets/bt_lista_de_espera.svg');
+    opacity: 1;
+    border: none;
+}
+
+.label-comming {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    top: 171px;
+    left: 64px;
+}
+
+.sub-text {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Gilroy-Medium', Arial, Helvetica, sans-serif;
+    letter-spacing: -0.23px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.label-how {
+    text-align: left;
+    font-size:40px;
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    letter-spacing: -0.6px;
+    color: #6D36D8;
+    opacity: 1;
+}
+
+.how-content {
+    width: 75%;
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Gilroy-Medium', Arial, Helvetica, sans-serif;
+    letter-spacing: -0.26px;
+    color: #54378E;
+    opacity: 1;
+}
+
+.how-content span {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+}
+
+.invite-label {
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: -0.45px;
+    color: #54378E;
+    opacity: 1;
+    font-family: 'Gilroy-SemiBold', Arial, Helvetica, sans-serif;
+    padding: 0 30px;
+
+}
+
+.calltoaction-section p {
+    font-size: 45px;
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    color: #F5EFFF;
+    opacity: 1;
+}
+
+div.calltoaction-content {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-howmuch {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 68px;
+    letter-spacing: -1.02px;
+    color: #EFBAFF;
+    opacity: 1;
+    margin-bottom: 25px;
+    padding: 0 30px;
+}
+
+.content-howmuch {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Gilroy-Medium', Arial, Helvetica, sans-serif;
+    letter-spacing: -0.45px;
+    color: #FFFFFF;
+    padding: 0 30px;
+    
+}
+
+.content-howmuch span{
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+}
+
+.howmuch-section img {
+    width: 38px;
+    height: 38px;
+}
+
+.input_label {
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.input {
+    padding-left: 0 !important;
+    font-size: 18px;
+    padding: 0.4em 0.6em;
+    border: 0;
+    border-bottom: 1px #FFFFFF solid;
+    background-color: transparent;
+    font-family: 'Gilroy-Medium', Arial, Helvetica, sans-serif;
+}
+
+.input::placeholder {
+    color: #DCCBFD;
+
+}
+
+.send_button {
+    background: url('assets/bt_enviar.svg') no-repeat;
+    opacity: 1;
+    cursor:pointer;
+    border: none;
+    width: 274px;
+    height: 57px;
+    margin-top: 30px;
+}
+
+.list_button {
+    background: url('assets/bt_lista_de_espera.svg') no-repeat;
+    opacity: 1;
+    cursor:pointer;
+    border: none; 
+    top: 559px;
+    left: 252px;
+    width: 274px;
+    height: 57px;
+}
+
+.queroapoiar {
+    background: url('assets/bt_queroapoiar.svg') no-repeat;
+    opacity: 1;
+    cursor:pointer;
+    border: none; 
+    top: 559px;
+    left: 252px;
+    width: 274px;
+    height: 57px;
+}
+
+.footer-section {
+    top: 2298px;
+    left: 0px;
+    width: 100%;
+    height: 61px;
+    background: #5C29BE 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.footer-section p {
+    width: 100%;
+    padding: 18px;
+    margin-top: 0;
+    font-family: 'Gilroy-Medium', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: -0.18px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.padding-20 {
+    padding: 20px 0;
+}
+
+.text-input {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.text-input input {
+    width: 100%;
+}
+
+.text-input--col2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.text-input--col2 input {
+    width: 45%;
+}
