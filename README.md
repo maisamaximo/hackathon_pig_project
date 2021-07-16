@@ -1,4 +1,4 @@
-<h1 align="center">PIG - Previdencia In Gaming /h1>
+<h1 align="center">PIG - Previdencia In Gaming </h1>
 <p>
   <a href="https://www.npmjs.com/package/weather-app" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/weather-app.svg">
